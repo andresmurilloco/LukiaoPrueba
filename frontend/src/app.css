@@ -1,0 +1,41 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.home-buttons-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button {
+  all: unset;
+  display: flex;
+  cursor: pointer;
+  width: 12rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  border: none;
+  font-weight: bolder;
+}
+
+.home-employees {
+  background-color: blue;
+}
+
+.home-single-employee {
+  background-color: aquamarine;
+}
+
+.home-new-employee {
+  background-color: green;
+}

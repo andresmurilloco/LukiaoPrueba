@@ -1,0 +1,28 @@
+.employeesform-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.employees-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.new-employee-button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
